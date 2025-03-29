@@ -1,6 +1,33 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.age-calculator {
+  width: 85%;
+  max-width: 1024px;
+  margin: 2rem auto;
   text-align: center;
+}
+
+.age-calculator-picker {
+  margin: 1rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 300px;
+  width: 85%;
+}
+
+.age-calculator-picker label {
+  text-align: left;
+  width: 100%;
+}
+
+.age-calculator-picker input {
+  width: 100%;
+}
+
+.age-calculator-picker button {
+  width: 100%;
+}
+
+#age-calculated {
+  font-weight: bold;
 }
